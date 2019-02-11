@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bug Form</title>
+		<link rel="stylesheet" type="text/css" href="/home/ttn/Desktop/html/form.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+<body>
+	
+	<!-- HEADER PORTION -->
+
+	<div>
+		<h1 id="header1">TO THE NEW</h1>
+		<span id="span1">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Quick Help</a></li>
+			</ul>
+		</span>
+	</div>
+	<hr>			
+
+	<!-- HEADER PORTION ENDS -->
+
+
+
+	<!-- FORM PORTION -->
+
+	<div  id="formDiv">
+		<br/>
+		<form  id="form1">
+			
+			<div id = 'fdiv2'>Bug Report</div>
+			
+			<div class='fdiv3'>
+				Title
+				<span class='fspan4'>*</span>
+				<br>
+				<input type="text" id=d3 class=fin1 name="title_input">
+			</div>
+
+			<div class="fdiv3">
+				Description
+				<span class="fspan4">*</span>
+				<br>
+				<textarea type='text' id="d4" class="fin1" name="desc_input" rows="6" false="">
+				</textarea>
+			</div>
+
+			<div class="fdiv3">
+				Operating System
+				<br>
+				<select id=d5 class="fin2" name=select_os>
+					<option>Windows 10</option>
+					<option>Windows 8</option>
+					<option>Windows 7</option>
+					<option>Mac OS</option>
+					<option>Linux</option>
+					<option>Fedora</option>
+				</select>
+			</div>
+
+			<div class="fdiv3">
+				Product
+				<span class="fspan4">*</span>
+				<br>
+				<select id=d6 class="fin2" name=select_product>
+					<option>Fedora</option>
+					<option>Debian</option>
+					<option>openSUSE</option>
+					<option>PCLinuxOS</option>
+					<option>Mandriva</option>
+					<option>Gentoo</option>
+				</select>
+			</div>
+
+			<div class="fdiv3">
+				Version
+				<span class="fspan4">*</span>
+				<br>
+				<input type="text" id="d7" class="fin3" name="version"">
+			</div>
+
+			<div class="fdiv3">
+				Licence
+				<br>
+				<span>
+					<input type="radio" id="d8" name="free" value="free">Free
+					<input type="radio" id="d9" class="fin4" name="business" value="business">Business
+				</span>
+			</div>
+
+			<div class="fdiv3">
+				Severity
+				<br>
+				<select id=d10 class="fin2" name=severity>
+					<option>Critical</option>
+					<option>Major</option>
+					<option>Minor</option>
+					<option>Low</option>
+				</select>
+			</div>
+
+
+			<div class="fdiv3">
+				Attachments:
+				<br>
+				<input type="file" id="d11" class="fin5" name="attachment">
+				<br>
+				<br>
+			</div>
+
+			<div id="fdiv4">
+				<button class="fin6">
+				Send
+				</button>
+			</div>
+
+		</form>
+
+	<!-- FORM PORTION ENDS -->
+
+	</div>
+
+
+
+</body>
+
+
+</html>
