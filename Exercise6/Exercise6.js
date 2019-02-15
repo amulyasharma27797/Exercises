@@ -75,7 +75,13 @@ $('.buttonColor').click(function(){
 
 
 // Question 15
-
+$('#button1').on('click', function(){
+	$.ajax({
+		url: "demo.json", dataType:'json', success:function(result){
+			console.log(result)
+		}
+	})
+});
 // Question 16
 // Question 17
 
