@@ -51,7 +51,7 @@ $('#q12').click(function(event){
 
 
 // Question 13
-$('button').click(function(){
+$('#but').click(function(){
 	var max=-1;
 	$('ul').each(function(){
 		var h = $(this).height();
@@ -84,4 +84,8 @@ $('#button1').on('click', function(){
 });
 // Question 16
 // Question 17
+$('#animate').on('click', function(){
+	$('div .c17').animate({left:"200px"})
+})
+
 
