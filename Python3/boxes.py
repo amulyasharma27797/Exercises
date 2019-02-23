@@ -37,7 +37,7 @@ class ListBox(Box):
         for items in self.lists:
             l.append(items)
         self.lists.clear()
-        return 1
+        return l
 
     def count(self):
         return len(self.lists)
@@ -60,7 +60,7 @@ class DictBox(Box):
             listitem=item(key,val)
             l.append(listitem)
         self.dicts.clear()
-        return 1
+        return l
 
     def count(self):
         return len(self.dicts.items())
